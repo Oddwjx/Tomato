@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header,.footer{
+            background-color: black;
+            color:white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .footer{
+            clear: both;
+        }
+
+        .column{
+            float: left;
+            padding: 15px
+        }
+
+        .name{
+            width: 25%;
+        }
+
+        .content2{
+            width: 75%;
+        }
+        
+        *{
+            box-sizing: border-box;
+        }
+        .name li{
+            padding: 10px;
+            margin-bottom: 15px;
+            background-color: rgb(242, 192, 56);
+            width:100px;
+            clear: both;
+        }
+
+        .name ul{
+            list-style-type:none;
+        }
+
+        .content1 ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:rgb(249, 129, 44);
+        }
+
+        .content1 li{
+            float: left;
+        }
+
+        .content1 li a{
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .content1 li:hover{
+            background-color: khaki;
+        }
+
+        .active{
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+     <div class="header">
+        <h1>WB</h1>
+     </div>
+
+     <div class="content1">
+         <ul>
+            <li><a href="#Home" class="active">Home</a></li>
+            <li><a href="#2023Spring">2023Spring</a></li>
+            <li><a href="Honor">Honor</a></li>
+            <li><a href="About">About</a></li>
+         </ul>
+     </div>
+
+    <div>
+        <div class="column name">
+            <ul>
+                <li>zimo</li>
+                <li>nuanyang</li>
+                <li>huajuan</li>
+                <li>qiaoxi</li>
+                <li>xingyu</li>
+            </ul>
+        </div>
+        <div class="column content2">
+            <h1>Crowned with glory</h1>
+            <h1>pursue continuously</h1>
+        </div>
+     </div>
+     
+     <div class="footer">
+         <p>VVBOY</p>
+     </div>
+</body>
+</html>
