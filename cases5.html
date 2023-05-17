@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(风景.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        img{
+            width: 10%;
+            height: 100px;
+            float: left;
+        }
+
+        .content ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            margin-top: 28px;
+            margin-left: 30px;
+        }
+
+        .content li{
+            float: left;
+        }
+
+        .content li a{
+            display: inline-block;
+            color:rgb(120, 118, 118);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .content{
+            float: left;
+        }
+
+        .dropbtn{
+            border: none;
+            cursor: pointer;
+            color: rgb(120, 118, 118);
+            background-color: #f9f9f900;
+            font-size: 15px;
+            padding: 14px 16px;
+        }
+
+        .dropdown{
+            position: relative;
+            display: inline-block;
+            margin-top: 31px;
+        }
+
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            min-width: 80px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+
+        .dropdown-content a{
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover{
+            color: lightskyblue;
+        }
+
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+
+        input[type=text]{
+            border-radius: 8px;
+            background-image: url(搜索.jpg);
+            background-color: antiquewhite;
+            background-repeat: no-repeat;
+            background-position: left top;
+            background-size: contain;
+            border-style: none;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+            width: 130px;
+            box-sizing: border-box;
+            font-size: 16px;
+            margin-top: 200px;
+            margin-left: 560px;
+        }
+
+        input[type=text]:focus{
+            width: 50%;
+        }
+
+        input[type=button]{
+            border-radius: 2px;
+            border-style: none;
+            background-color: white;
+            padding: 2px 20px;
+            text-align: center;
+            margin-left:50%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="MB.png" alt="MB">
+    </div>
+    <div class="content">
+        <ul>
+            <li><a href="#Picture">Picture</a></li>
+            <li><a href="#Vedio">Vedio</a></li>
+        </ul>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">More</button>
+        <div class="dropdown-content">
+          <a href="#map">map</a>
+          <a href="#news">news</a>
+        </div>
+    </div>
+    <div class="form">
+        <form action="">
+            <input type="text" id="search" name="search">
+            <br>
+            <input type="button" value="search">
+        </form>
+    </div>
+</body>
+</html>
