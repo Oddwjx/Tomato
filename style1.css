@@ -1,0 +1,183 @@
+/*main*/
+#main {
+    float: right;
+    width: 75%;
+}
+
+#main {
+    background-color: #bdcbd2;
+    height: 2000px;
+}
+
+/*sidebar*/
+#sidebar {
+    background-color: #98b6c2;
+    height: 2000px;
+}
+
+/*header*/
+#header {
+    padding: 40px;
+    border-bottom: #284852 solid 5px ; 
+    width: 90%;
+    color: #151d29;
+    margin: auto;
+}
+
+.logo{
+    float: left;
+    text-decoration: none;
+    color: #151d29;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #151d29;
+}
+
+.icons li{
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+/*banner*/
+#banner img{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#banner .content{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#banner {
+    margin: 40px;
+    height: 400px;
+}
+
+p {
+    font-size: 10px;
+}
+
+h1 {
+    margin: 10px;
+    text-align: left;
+    font-size: 50px;
+    word-spacing: 10px;
+}
+
+#banner p {
+    font-size: 8px;
+    padding: 0px 10px ;
+    text-align: left;
+    line-height: 20px;
+}
+
+.actions a {
+    color: #7f9faf;
+    border: #7f9faf 1px solid;
+    border-radius: 20px;
+}
+
+/*section*/
+section {
+    clear: both;
+    margin: 40px;
+}
+
+.features article {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    height: 200px;
+    padding: 20px;
+}
+
+.posts article{
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    background-color: #284852;
+    color: white;
+    width: 300px;
+    margin: auto;
+}
+
+h3 {
+    color: #547698;
+}
+
+/*sidebar*/
+#sidebar {
+    float: left;
+    width: 25%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding:12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: #7f9faf 1px solid;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    color: #7f9faf;
+}
+
+#menu ul {
+    margin: 20px;
+       padding: 0;
+}
+
+#menu li {
+       padding: 8px 16px;
+}
+
+#menu li a {
+    color:#151d29;
+}
+
+.major+p {
+    margin: 40px 0;
+    line-height: 30px;
+}
+
+.contact li,.contact li a {
+    padding: 8px 0;
+    color: aliceblue;
+    font-size: 8px;
+}
+
+.contact{
+    margin: 0;
+    padding: 0;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #151d29;
+}
+
+.copyright{
+    text-align: center;
+    color: #151d29;
+}
