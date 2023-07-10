@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>打字小游戏</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <!--字母下落的范围-->
+  <div class="screen"></div>
+
+  <!--字母消失背景-->
+  <div class="black"></div>
+
+  <!--暂停开始的按钮-->
+  <div class="start" onclick="init_game();">start</div>
+  <div class="stop" onclick="stop_game();">stop</div>
+
+  <!--记分牌-->
+  <div class="score">0</div>
+
+  <!--关卡-->
+  <div class="level">第<span class="levelSpan">1</span>关</div>
+    
+  <!--下一关/游戏结束-->
+  <div class="success">
+    <div class="success_btn" onclick="init_game();"></div>
+  </div>
+  <div class="defeat">
+    <div class="defeat_btn" onclick="init_game();"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script> 
+  <script src="script.js"></script>
+  
+</body>
+</html>
